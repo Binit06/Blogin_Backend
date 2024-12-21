@@ -1,4 +1,4 @@
-import Post from "../models/postModel.js"
+const Post = require("../models/postModel.js")
 
 const createPost = async (postData) => {
   const newPost = new Post(postData);

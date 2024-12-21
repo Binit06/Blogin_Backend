@@ -1,4 +1,4 @@
-import postService from "../services/postService.js"
+const postService = require("../services/postService.js")
 
 const createPost = async (req, res, next) => {
   try {
